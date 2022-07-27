@@ -14,3 +14,15 @@ function secondTask() {
         console.log(j);
     }
 }
+
+//3
+function thirdTask() {
+    // Пишем решение вот тут
+    for (let k = 2; k <= 10; k++){
+        if (k % 2 === 1){
+            continue;
+        }else{
+           console.log(k); 
+        }
+    }
+}
