@@ -26,3 +26,19 @@ function thirdTask() {
         }
     }
 }
+
+//4
+function fourthTask() {
+    let l = 2;
+    
+    while (l <= 16) {
+    if (l % 2 === 0) {
+        l++;
+        continue;
+    }else {
+        console.log(l);
+        l++;
+    }
+}
+    
+}
