@@ -25,3 +25,15 @@ function secondTask() {
     console.log(data);
     return data;
 }
+
+//3
+function thirdTask() {
+    const data = [5, 10, 'Shopping', 20, 'Homework'];
+    const result = [];
+
+    for (let c = 0; c < data.length; c++) {
+        result[c] = data[data.length-c-1]
+    }
+    console.log(result);
+    return result;
+}
