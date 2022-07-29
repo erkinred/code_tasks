@@ -10,3 +10,18 @@ function firstTask() {
     
     return result;
 }
+
+//2
+function secondTask() {
+    const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+    for (let b = 0; b < data.length; b++){
+        if (typeof data[b] === 'number'){
+            data[b] = data[b] * 2;
+        }else if(typeof data[b] === 'string'){
+            data[b] += ' - done';
+        }
+    }
+    console.log(data);
+    return data;
+}
