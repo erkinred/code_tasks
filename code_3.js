@@ -42,3 +42,15 @@ function fourthTask() {
 }
     
 }
+
+//5
+function fifthTask() {
+    const arrayOfNumbers = [];
+
+    for (let h = 5; h <= 10; h++){
+        arrayOfNumbers.push(h);
+    }
+    console.log(arrayOfNumbers);
+
+    return arrayOfNumbers;
+}
