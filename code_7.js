@@ -6,3 +6,15 @@ function calculateVolumeAndArea(kubLength) {
         return `При вычислении произошла ошибка`;
     }
 }
+
+//2
+function getCoupeNumber(mesto) {
+    if(!Number.isInteger(mesto) || mesto < 0) {
+        return 'Ошибка. Проверьте правильность введенного номера места';
+    }else if(mesto === 0 || mesto > 36) {
+        return 'Таких мест в вагоне не существует';
+    }else{
+        // return Math.floor((mesto +3) / 4);
+        return Math.ceil(mesto/4);
+    }
+}
