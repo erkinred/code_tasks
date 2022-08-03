@@ -46,3 +46,12 @@ function getTimeFromMinutes(time) {
     
     return result;
 }
+
+//2
+function findMaxNumber(one, two, three, four) {
+    if(typeof(one) !== 'number' || typeof(two) !== 'number' || typeof(three) !== 'number' || typeof(four) !== 'number' || one === null || two === null || three === null || four === null) {
+        return 0;
+    }else{
+        return Math.max(one, two, three, four);
+    }
+}
